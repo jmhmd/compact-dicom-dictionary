@@ -8,5 +8,5 @@ See [src/build-compact-dictionary.js](src/build-compact-dictionary.js) for more 
 
 The full dictionary object is copied from the dcmjs repository: https://github.com/dcmjs-org/dcmjs/blob/master/src/dictionary.js
 
-- Full dictionary size (minified): 844 KB
-- Compact dictionary size (minified): 400 KB
+- Full dictionary with POJO (minified): 844 KB
+- Compact dictionary with Object Proxy (minified): 400 KB
