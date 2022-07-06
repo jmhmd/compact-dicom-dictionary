@@ -2,12 +2,16 @@
   "name": "compact-dicom-dictionary",
   "version": "1.0.0",
   "description": "Compact DICOM dictionary using Object Proxy",
-  "main": "index.js",
+  "main": "src/compact-dictionary.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node ./src/build-compact-dictionary.js"
+    "build": "node ./src/build-compact-dictionary.js && rollup --config"
   },
   "author": "Jason Hostetter MD",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^2.75.7",
+    "rollup-plugin-terser": "^7.0.2"
+  }
 }
