@@ -1,0 +1,13 @@
+{
+  "name": "compact-dicom-dictionary",
+  "version": "1.0.0",
+  "description": "Compact DICOM dictionary using Object Proxy",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./src/build-compact-dictionary.js"
+  },
+  "author": "Jason Hostetter MD",
+  "license": "MIT"
+}
